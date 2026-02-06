@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React from 'react'
 import { ViewProps } from 'react-native'
 
 export interface DatePickerProps extends ViewProps {
@@ -102,4 +102,5 @@ export interface DatePickerProps extends ViewProps {
   buttonColor?: string
 }
 
-export default class DatePicker extends Component<DatePickerProps> {}
+declare const DatePicker: React.FC<DatePickerProps>
+export default DatePicker
