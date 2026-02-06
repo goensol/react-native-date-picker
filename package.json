@@ -1,6 +1,10 @@
 {
-  "name": "react-native-date-picker",
-  "version": "5.0.13",
+  "name": "@goensol/react-native-date-picker",
+  "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "A datetime picker for React Native. In-modal or inlined. Supports Android and iOS.",
   "source": "src/index",
   "main": "src/index.js",
